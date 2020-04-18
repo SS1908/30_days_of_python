@@ -1,0 +1,12 @@
+IndexError
+
+Example 1: IndexError
+
+>>> numbers = [1, 2, 3, 4, 5]
+>>> numbers[5]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>>
+
+In the above example, python raised an IndexError because the list has only 0 to 4 indexes, so it was out of range.

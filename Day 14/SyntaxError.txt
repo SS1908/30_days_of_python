@@ -1,0 +1,27 @@
+SyntaxError
+
+
+
+Example 1: SyntaxError
+
+
+>>> print 'hello world'
+  File "<stdin>", line 1
+    print 'hello world'
+                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('hello world')?
+>>>
+
+As you can see we made a syntax error because we forgot to enclose the string with parenthesis and python is already suggested us to fix. Let's fix it.
+
+
+>>> print 'hello world'
+  File "<stdin>", line 1
+    print 'hello world'
+                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('hello world')?
+>>> print('hello world')
+hello world
+>>>
+
+The error was a SyntaxError and we fixed and our code executed. Let see more error types.

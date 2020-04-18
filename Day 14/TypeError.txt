@@ -1,0 +1,24 @@
+TypeError
+
+Example 1: TypeError
+
+>>> 4 + '3'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>>
+
+In the above example, a TypeError is raised because we can not add number and string. First, we should convert the string to int or float. Let's fix this error.
+
+
+>>> 4 + '3'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 4 + int('3')
+7
+>>> 4 + float('3')
+7.0
+>>>
+
+The remove the error and our and we got the result we expected.

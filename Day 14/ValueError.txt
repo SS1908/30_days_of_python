@@ -1,0 +1,10 @@
+ValueError
+
+
+>>> int('12a')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '12a'
+>>>
+
+We can not change string to a number.

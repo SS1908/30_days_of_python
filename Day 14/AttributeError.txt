@@ -1,0 +1,33 @@
+AttributeError
+
+Example 1: AttributeError
+
+>>> import maths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'maths'
+>>> import math
+>>> math.PI
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'math' has no attribute 'PI'
+>>>
+
+As you can see, now again I made a mistake instead of pi, I tried to call a PI function from maths module that raise an attribute error, it means the function does not exist in the module. Lets fix it by change from PI to pi.
+
+
+>>> import maths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'maths'
+>>> import math
+>>> math.PI
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'math' has no attribute 'PI'
+
+>>> math.pi
+3.141592653589793
+>>>
+
+Now, when we call pi from the math module we got the result.

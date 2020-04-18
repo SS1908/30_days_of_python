@@ -1,0 +1,28 @@
+KeyError
+
+Example 1: KeyError
+
+>>> users = {'name':'Asab', 'age':250, 'country':'Finland'}
+>>> users['name']
+'Asab'
+>>> users['county']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'county'
+>>>
+
+As you can see, there was a typo in the key used to get the dictionary value. so, this is a key error and it is straight forward what to fix. Lets fix this.
+
+
+>>> user = {'name':'Asab', 'age':250, 'country':'Finland'}
+>>> user['name']
+'Asab'
+>>> user['county']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'county'
+>>> user['country']
+'Finland'
+>>>
+
+We debug our error and our code ran and we got the value.

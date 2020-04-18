@@ -1,0 +1,20 @@
+ModuleNotFoundError
+
+Example 1: ModuleNotFoundError
+
+>>> import maths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'maths'
+>>>
+
+In the above example, I added extra s to math deliberately and ModuleNotFoundError was raised. Lets fix the error by removing the extra added s from math.
+
+>>> import maths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'maths'
+>>> import math
+>>>
+
+We fixed the error by removing the extra s. Now let's use some of the function from math module.

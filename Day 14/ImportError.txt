@@ -1,0 +1,22 @@
+ImportError
+
+Example 1: TypeError
+
+
+>>> from math import power
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'power' from 'math'
+>>>
+
+There is no function called power in the math module instead we have pow. Lets correct it
+
+
+>>> from math import power
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'power' from 'math'
+>>> from math import pow
+>>> pow(2,3)
+8.0
+>>>

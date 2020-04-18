@@ -1,0 +1,11 @@
+ZeroDivisionError
+
+>>> 1/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>>
+
+We can not divide a number by zero.
+
+We have covered some of the python error types, if you want to check more about it check the python documentation about python error types. If you are good at reading the error types then you will be able to fix your bugs fast and you will be also a better programmer.

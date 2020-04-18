@@ -1,0 +1,24 @@
+NameError
+
+Example 1: NameError
+
+
+>>> print(age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>>
+
+As you can see from the above error, it says that name age is not defined. Yes, it is true. We did define an age variable but we were trying to print it as if we declare it. Now, lets fix this by declaring age variable and assigning with a value.
+
+
+>>> print(age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>> age = 25
+>>> print(age)
+25
+>>>
+
+The type of error was a NameError. We debugged the error by defining the variable name.
